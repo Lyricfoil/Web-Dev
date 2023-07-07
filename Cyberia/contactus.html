@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cyberia Contact Us</title>
+    <style type="text/css">
+      form {
+      background-color: #f2f2f2;
+      padding: 20px;
+      border: 1px solid #ddd;
+      font-family: Arial, sans-serif;
+    }
+    
+    input, textarea {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-family: Arial, sans-serif;
+      color: #333;
+    </style>
+  </head>
+  <body>
+    <header><h1>Contact for Cyberia</h1></header>
+    <nav></nav>
+    <main>
+      <header><h2>Fill in this form to contact us.</h2></header>
+      <form action="" method="post" autocomplete="on">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required><br><br>
+    
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required><br><br>
+    
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" autocomplete="off" required><br><br>
+    
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+    
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="5" cols="40"></textarea><br><br>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </main>
+  </body>
+</html>
